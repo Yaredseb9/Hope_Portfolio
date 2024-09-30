@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Your Name - Full-Stack Developer</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- CSS Styles -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            font-weight: 600;
+            color: #222;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+            color: #777;
+        }
+
+        .social-links {
+            margin-top: 15px;
+        }
+
+        .social-links a {
+            margin: 0 10px;
+            color: #333;
+            text-decoration: none;
+            font-size: 1.5rem;
+        }
+
+        .social-links a:hover {
+            color: #007bff;
+        }
+
+        section {
+            margin: 50px 0;
+        }
+
+        section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #222;
+        }
+
+        .skills, .projects, .contact {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .skills-item, .project-item, .contact-item {
+            flex: 1 1 30%;
+            background: white;
+            padding: 20px;
+            margin: 15px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .skills-item i, .project-item i {
+            font-size: 3rem;
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+
+        .skills-item h3, .project-item h3, .contact-item h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: #222;
+            color: #fff;
+            margin-top: 50px;
+        }
+
+        footer a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header Section -->
+        <header>
+            <h1>Your Name</h1>
+            <p>Junior Full-Stack Developer | AWS Enthusiast</p>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/your-profile" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/your-profile" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:your.email@example.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </header>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I'm a junior full-stack developer with experience in building dynamic web applications. I specialize in front-end and back-end development, AWS cloud infrastructure, and continuous integration/delivery (CI/CD). My recent projects include working on the GreSLERN platform and CLUB system.
+            </p>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills">
+                <div class="skills-item">
+                    <i class="fas fa-code"></i>
+                    <h3>Languages</h3>
+                    <p>JavaScript, Python, HTML, CSS</p>
+                </div>
+                <div class="skills-item">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Frameworks</h3>
+                    <p>React, Node.js, Django</p>
+                </div>
+                <div class="skills-item">
+                    <i class="fas fa-cloud"></i>
+                    <h3>Cloud & DevOps</h3>
+                    <p>AWS, CI/CD, GitHub Actions, Docker</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project-item">
+                    <i class="fas fa-project-diagram"></i>
+                    <h3>GreSLERN Platform</h3>
+                    <p>Designed and developed the front-end components and implemented AWS CI/CD for the GreSLERN digital platform.</p>
+                    <a href="https://github.com/your-repo-link" target="_blank">View on GitHub</a>
+                </div>
+                <div class="project-item">
+                    <i class="fas fa-project-diagram"></i>
+                    <h3>CLUB System</h3>
+                    <p>Oversaw AWS CI/CD implementation and designed user dashboard for the CLUB system.</p>
+                    <a href="https://github.com/your-repo-link" target="_blank">View on GitHub</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <div class="contact">
+                <div class="contact-item">
+                    <h3>Email</h3>
+                    <p><a href="mailto:your.email@example.com">your.email@example.com</a></p>
+                </div>
+                <div class="contact-item">
+                    <h3>LinkedIn</h3>
+                    <p><a href="https://linkedin.com/in/your-profile" target="_blank">Connect on LinkedIn</a></p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2024 Your Name | Built with <i class="fas fa-heart"></i> using HTML & CSS</p>
+    </footer>
+
+</body>
+</html>
